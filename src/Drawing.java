@@ -1,8 +1,11 @@
 import java.util.*;
 //in this class AN is a shortcut word for ArrayNumber of character.
 //and cAN is a shortcut word for ArrayNumber of characters [character class] copy.
-//some processes like findingCoordinates, drawingBoard is much easier with [character class] copy of characters.
+//some processes like findingCoordinates, drawingBoard are much easier with [character class] copy of characters.
 //thats the reason why we use cAN.
+
+import FileOps.FileRead;
+import FileOps.FileWrite;
 
 public class Drawing {
 	static FileWrite fw = new FileWrite();
